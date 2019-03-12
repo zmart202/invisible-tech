@@ -11,7 +11,7 @@ const locationArray = [
     }
 ]
 
-async function getWeather(){
+const getWeather = async function(){
     try {
         for (let loc in locationArray) {
             const location = locationArray[loc]
